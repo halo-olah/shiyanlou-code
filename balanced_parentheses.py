@@ -34,6 +34,7 @@ class Stack(object):
         return len(self.stack)
 
 def balanced_parentheses(parentheses):
+    # 判断（）是否对称出现的方法
         stack = Stack(len(parentheses))
         for parenthesis in parentheses:
             if parenthesis == "(":
