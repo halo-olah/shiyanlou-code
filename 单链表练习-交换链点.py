@@ -138,7 +138,7 @@ class Link_List:
 
 
 # 定义一个交换链表链点的方法：
-def swap_nodes(d1,d2):
+def swap_nodes():
     """
     1. 生成链表
     2. 遍历链表，确认d1,d2元素在链表中，并且返回元素的链点值
@@ -152,4 +152,4 @@ def swap_nodes(d1,d2):
 
 
 if __name__ == "__main__":
-    swap_nodes(1,4)
+    swap_nodes()
